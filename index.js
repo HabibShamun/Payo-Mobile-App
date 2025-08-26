@@ -8,8 +8,8 @@ const pinNumberValue=document.getElementById("pin-number").value;
 const pinNumberValueConverted=parseInt(pinNumberValue);
 
 if(mobileNumberValueConverted===mobileNumber && pinNumberValueConverted===pinNumber) {
-    console.log("All values matched");
+    window.location.href="./Home.html"
 } else {
-    console.log("Invalid Credentials")
+    alert("Invalid Credentials");
 }
 })
